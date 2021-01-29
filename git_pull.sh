@@ -35,7 +35,7 @@ if [[ ${WhichDep} == *github* ]]; then
   ScriptsURL=https://gitee.com/lxk0301/jd_scripts
   ShellURL=https://github.com/sgzman/my-jd-base
 else
-  ScriptsURL=https://gitee.com/lxk0301/jd_scripts
+  ScriptsURL=https://github.com/iplcdn/jd_scripts
   ShellURL=https://github.com/sgzman/my-jd-base
 fi
 
