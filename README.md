@@ -4,7 +4,7 @@
 
 本脚本是以下两个仓库的shell套壳工具：
 
-[LXK9301/jd_scripts](https://github.com/LXK9301/jd_scripts)：主要是长期任务。
+[lxk0301/jd_scripts](https://gitee.com/lxk0301/jd_scripts)：主要是长期任务。
 
 [shylocks/Loon](https://github.com/shylocks/Loon)：主要是短期任务、一次性任务，正因为是短期的和一次性的，所以经常会有报错，报错就报错了，不要催我也不要去催[shylocks](https://github.com/shylocks)大佬。
 
