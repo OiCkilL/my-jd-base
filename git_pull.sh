@@ -29,7 +29,7 @@ ContentDropTask=${ShellDir}/drop_task
 SendCount=${ShellDir}/send_count
 isTermux=${ANDROID_RUNTIME_ROOT}${ANDROID_ROOT}
 WhichDep=$(grep "/my-jd-base" "${ShellDir}/.git/config")
-Scripts2URL=https://github.com/shylocks/Loon
+Scripts2URL=https://github.com/sgzman/my-Loon
 
 if [[ ${WhichDep} == *github* ]]; then
 ScriptsURL=https://gitee.com/lxk0301/jd_scripts
