@@ -32,7 +32,7 @@ WhichDep=$(grep "/my-jd-base" "${ShellDir}/.git/config")
 Scripts2URL=https://github.com/sgzman/my-Loon
 
 if [[ ${WhichDep} == *github* ]]; then
-ScriptsURL=https://gitee.com/lxk0301/jd_scripts
+  ScriptsURL=https://gitee.com/lxk0301/jd_scripts
   ShellURL=https://github.com/sgzman/my-jd-base
 else
   ScriptsURL=https://gitee.com/lxk0301/jd_scripts
@@ -77,7 +77,7 @@ function Git_PullScripts {
 ## 克隆scripts2
 function Git_CloneScripts2 {
   echo -e "克隆shylocks脚本，原地址：${Scripts2URL}\n"
-  git clone -b main ${Scripts2URL} ${Scripts2Dir}
+  git clone -b master ${Scripts2URL} ${Scripts2Dir}
   ExitStatusScripts2=$?
   echo
 }
@@ -88,7 +88,7 @@ function Git_PullScripts2 {
   cd ${Scripts2Dir}
   git fetch --all
   ExitStatusScripts2=$?
-  git reset --hard origin/main
+  git reset --hard origin/master
   echo
 }
 
