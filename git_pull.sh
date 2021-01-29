@@ -41,7 +41,7 @@ fi
 
 ## 更新shell脚本
 function Git_PullShell {
-  echo -e "更新shell脚本，原地址：${ShellURL}\n"
+  echo -e "更新shell脚本222，原地址：${ShellURL}\n"
   cd ${ShellDir}
   git fetch --all
   ExitStatusShell=$?
@@ -58,7 +58,7 @@ function Update_Cron {
 
 ## 克隆scripts
 function Git_CloneScripts {
-  echo -e "克隆lxk0301脚本，原地址：${ScriptsURL}\n"
+  echo -e "克隆lxk0301脚本222，原地址：${ScriptsURL}\n"
   git clone -b master ${ScriptsURL} ${ScriptsDir}
   ExitStatusScripts=$?
   echo
